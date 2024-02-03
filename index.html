@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="main-container">
+        <span>
+            <p class="val-text">Happy Valentine's Day, <button id="btn-modal"> my loml!</button></p>
+        </span>
+        <span>
+            <img class="cat" src="https://media.giphy.com/media/FTGah7Mx3ss04PcasF/giphy.gif" alt="cat">
+        </span>
+        
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                </br><p>Hellooooooooooooo! ^o^</p></br>
+
+                <p class="tab-text">How was you? Happy Valentine's Day! ^_^ I just wanted to take a moment to express my gratitude for having you in my life. Your kindness, understanding, and unwavering support mean the world to me. Even though we may not communicate every day, I can still feel the warmth of our connection.</p></br>
+            
+                <p class="tab-text">It warms my heart that thinking of you serves as a source of strength for my daily life. Our connection is truly special, and I value it immensely. I also want to sincerely apologize for anything from the past that may have caused any hurt or discomfort.</p></br>
+            
+                <p class="tab-text">Lastly, always remember that I am here for you, no matter what happens. Good luck on your journey—you can do it! My prayers and unending support are with you! You deserve all the best thing in life, keep safe always! ^_^</p></br>
+            
+                <p class="tab-text">Let's embrace the love and connection we share, appreciating each moment. Wishing you a day filled with joy and warmth. Since Valentine's Day comes only once a year, I wanted to express my feelings and gratitude by writing these codes and letters. Have a great days!</p></br>
+            
+                <p>Thank you so much for everything,</p></br>
+                <p>Ashley G. Otchengco</p>
+
+                </br>
+                </br>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+        // Get the button that opens the modal
+        var btn = document.getElementById("btn-modal");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
+
+</body>
+</html>
