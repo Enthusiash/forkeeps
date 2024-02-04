@@ -74,11 +74,11 @@ button {
   @media (min-width: 414px) {
 
     span .val-text {
-      font-size: 16px;
+      font-size: 12px;
     }
 
     button {
-      font-size: 16px;
+      font-size: 12px;
     }
 
     .cat {
@@ -95,11 +95,11 @@ button {
   @media (min-width: 1024px) {
 
     span .val-text {
-      font-size: 36px;
+      font-size: 30px;
     }
 
     button {
-      font-size: 36px;
+      font-size: 30px;
     }
 
     .cat {
