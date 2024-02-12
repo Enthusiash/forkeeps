@@ -71,14 +71,14 @@ button {
   display: none;
 }
 
-@media (min-width: 414px) {
+@media (min-width: 375px) {
   span .val-text {
-    font-size: 10px;
+    font-size: 12px;
     font-family: none;
   }
 
   button {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .cat {
@@ -88,6 +88,45 @@ button {
 
   .modal-content p {
     font-size: 12px;
+  }
+}
+
+@media (min-width: 414px) {
+  span .val-text {
+    font-size: 12px;
+    font-family: none;
+  }
+
+  button {
+    font-size: 12px;
+  }
+
+  .cat {
+    width: 110px;
+    height: 110px;
+  }
+
+  .modal-content p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  span .val-text {
+    font-size: 30px;
+  }
+
+  button {
+    font-size: 30px;
+  }
+
+  .cat {
+    width: 250px;
+    height: 250px;
+  }
+
+  .modal-content p {
+    font-size: 24px;
   }
 }
 
