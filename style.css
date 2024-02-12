@@ -74,6 +74,7 @@ button {
 @media (min-width: 414px) {
   span .val-text {
     font-size: 10px;
+    font-family: none;
   }
 
   button {
@@ -81,8 +82,8 @@ button {
   }
 
   .cat {
-    width: 130px;
-    height: 130px;
+    width: 110px;
+    height: 110px;
   }
 
   .modal-content p {
